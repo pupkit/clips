@@ -1,0 +1,3 @@
+yarn add -D tailwindcss@latest
+npx tailwind init
+ng generate module user
