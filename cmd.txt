@@ -1,3 +1,7 @@
 yarn add -D tailwindcss@latest
 npx tailwind init
 ng generate module user
+ng generate component nav
+ng generate component user/auth-modal
+ng generate module shared
+ng generate component shared/modal
