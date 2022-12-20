@@ -1,7 +1,18 @@
 yarn add -D tailwindcss@latest
 npx tailwind init
 ng generate module user
-ng generate component nav
-ng generate component user/auth-modal
+ng g c nav
+ng g c user/auth-modal
 ng generate module shared
-ng generate component shared/modal
+ng g c shared/modal
+ng generate service services/modal
+ng g c shared/TabsContainer
+ng g c shared/Tab
+ng g c user/login
+ng g c user/register
+ng g c shared/input
+https://regexr.com/
+yarn add ngx-mask
+ng g c shared/alert
+ng add @angular/fire
+ng g service services/auth
