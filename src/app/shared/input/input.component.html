@@ -21,4 +21,13 @@
   <p *ngIf="control.errors?.['pattern']" class="text-red-400">
     Password must be at least 8 characters long, having 1 uppercase letter, 1 lowercase letter and 1 digit
   </p>
+  <p *ngIf="control.errors?.['controlNotFound']" class="text-red-400">
+    Control Not Found
+  </p>
+  <p *ngIf="control.errors?.['noMatch']" class="text-red-400">
+    Passwords don't match
+  </p>
+  <p *ngIf="control.errors?.['emailTaken']" class="text-red-400">
+    Email already taken
+  </p>
 </ng-container>

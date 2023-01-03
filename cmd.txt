@@ -16,3 +16,16 @@ yarn add ngx-mask
 ng g c shared/alert
 ng add @angular/fire
 ng g service services/auth
+ng g class user/validators/RegisterValidators
+ng g class user/validators/EmailTaken
+ng g c home
+ng g c about
+ng g module video --routing
+ng g c video/manage
+ng g c video/upload
+ng g c clip
+ng g c not-found
+ng g directive shared/directives/event-blocker
+yarn add uuid @types/uuid
+ng g service services/clip
+ng g c video/edit
